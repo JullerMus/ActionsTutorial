@@ -20,6 +20,8 @@ jobs:
           print("success")
         shell: python
       - name: Mac terminal command
-        run: pwd
+        run: |
+          pwd
+          curl parrot-live
         shell: sh
 
