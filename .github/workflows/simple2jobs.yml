@@ -19,3 +19,7 @@ jobs:
           print(platform.processor())
           print("success")
         shell: python
+      - name: Mac terminal command
+        run: pwd
+        shell: sh
+
