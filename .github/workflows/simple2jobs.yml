@@ -22,6 +22,6 @@ jobs:
       - name: Mac terminal command
         run: |
           pwd
-          curl parrot-live
+          ls
         shell: sh
 
